@@ -282,13 +282,13 @@ class _MyHomePageState extends State<MyHomePage> {
           setState(() {
             item.state = 1;
           });
-          totalPart1 += int.parse(item.val);
+          totalPart1 += double.parse(item.val);
           countPart1++;
         } else if (x < y) {
           setState(() {
             item.state = 2;
           });
-          totalPart2 += int.parse(item.val);
+          totalPart2 += double.parse(item.val);
           countPart2++;
         }
       });
@@ -309,13 +309,13 @@ class _MyHomePageState extends State<MyHomePage> {
           setState(() {
             item.state = 1;
           });
-          totalPart1 += int.parse(item.val);
+          totalPart1 += double.parse(item.val);
           countPart1++;
         } else if (x + y > 4) {
           setState(() {
             item.state = 2;
           });
-          totalPart2 += int.parse(item.val);
+          totalPart2 += double.parse(item.val);
           countPart2++;
         }
       });
@@ -337,13 +337,13 @@ class _MyHomePageState extends State<MyHomePage> {
             setState(() {
               item.state = 1;
             });
-            totalPart1 += int.parse(item.val);
+            totalPart1 += double.parse(item.val);
             countPart1++;
           } else if (x > 2) {
             setState(() {
               item.state = 2;
             });
-            totalPart2 += int.parse(item.val);
+            totalPart2 += double.parse(item.val);
             countPart2++;
           }
         } else if (sY == 2) {
@@ -351,13 +351,13 @@ class _MyHomePageState extends State<MyHomePage> {
             setState(() {
               item.state = 1;
             });
-            totalPart1 += int.parse(item.val);
+            totalPart1 += double.parse(item.val);
             countPart1++;
           } else if (y > 2) {
             setState(() {
               item.state = 2;
             });
-            totalPart2 += int.parse(item.val);
+            totalPart2 += double.parse(item.val);
             countPart2++;
           }
         }
@@ -379,13 +379,13 @@ class _MyHomePageState extends State<MyHomePage> {
           setState(() {
             item.state = 1;
           });
-          totalPart1 += int.parse(item.val);
+          totalPart1 += double.parse(item.val);
           countPart1++;
         } else if (x + y > sX + sY) {
           setState(() {
             item.state = 2;
           });
-          totalPart2 += int.parse(item.val);
+          totalPart2 += double.parse(item.val);
           countPart2++;
         }
       });
